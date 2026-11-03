@@ -38,6 +38,17 @@ Before making the repository public, the two existing commits and current tracke
 
 See HANDOFF.md for the contributor workflow.
 
+## Deployment and handoff confirmation
+
+- Deployed application commit: `b9354bd62bc1bd4d193450876087f5d835b6bed8`.
+- Cloudflare Worker: `soulina-design-preview`.
+- Worker version: `110d1c44-101c-459d-b3ec-6f1d397ac239`.
+- Live URL: https://soulina-design-preview.mhoang-mkt.workers.dev/
+- Post-deployment HTTP check: root, poster.html, journey.html, app.js, styles.css and poster-full.css all returned HTTP 200 and matched the local build by SHA-256. Each returned `X-Robots-Tag: noindex, nofollow`.
+- Live browser smoke test: 320px viewport had 305px client/scroll width and 44px tab targets; Escape closed the mobile menu and restored focus; hero CTA reached the new experience chooser.
+- GitHub visibility changed to public as requested. An unauthenticated GitHub API request returned HTTP 200, `private: false`, default branch `main`.
+- This record is a documentation-only update after deployment; it does not alter the deployed assets.
+
 ---
 
 ## Historical verification record before this pass
