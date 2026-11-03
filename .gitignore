@@ -6,3 +6,4 @@ node_modules/
 preview-*.jpg
 source.html
 *.log
+qa-responsive-results.json
