@@ -1,5 +1,9 @@
 # SOULINA festival landing page
 
+## UI/UX handoff update (2026-11-04)
+
+The page now includes a three-option experience chooser after the hero, before the original story section. Hero and desktop navigation lead to that overview. Zalo and Messenger are offered early and in both studio workshop blocks. Product and booth-activity photo placeholders have been replaced with compact text layouts until approved photos arrive; short product lists are shown directly. The mobile menu supports Escape and outside-click dismissal, and preview tabs use 44px targets with compact labels. See HANDOFF.md and VERIFICATION.md for current behavior and checks.
+
 ## Approved direction
 
 Poster lễ hội, red #C41530, yellow #FFAB19 and cream #FFECCC/#F9E9D0. Retain the existing logo and real SOULINA photographs. Full landing page replaces the Poster exploration; the other two studies remain available in the comparison tabs. Default tab becomes Poster.

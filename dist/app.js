@@ -35,3 +35,14 @@ if(document.querySelector('#style-gallery')){
 }
 else {updatePreviewNote(document.body.classList.contains('style-2')?1:0);initMotion();}
 document.addEventListener('click',event=>{const anchor=event.target.closest('.fp-mobile-nav a');if(anchor)anchor.closest('details').open=false;});
+document.addEventListener('keydown',event=>{
+  if(event.key!=='Escape')return;
+  const menu=document.querySelector('.fp-mobile-nav[open]');
+  if(!menu)return;
+  menu.open=false;
+  menu.querySelector('summary').focus();
+});
+document.addEventListener('click',event=>{
+  const menu=document.querySelector('.fp-mobile-nav[open]');
+  if(menu&&!menu.contains(event.target))menu.open=false;
+});
