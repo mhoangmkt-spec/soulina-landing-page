@@ -1,0 +1,8 @@
+node_modules/
+.wrangler/
+.env
+.env.*
+*.zip
+preview-*.jpg
+source.html
+*.log

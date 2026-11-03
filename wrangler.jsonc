@@ -1,0 +1,6 @@
+{
+  "name": "soulina-design-preview",
+  "account_id": "1f8827dbcf27095d6a664429f1fe16b9",
+  "compatibility_date": "2026-11-03",
+  "assets": { "directory": "./dist" }
+}
